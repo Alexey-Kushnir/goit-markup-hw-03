@@ -153,6 +153,8 @@ body {
 }
 
 .wwdo {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .wwdo-title {
@@ -168,6 +170,8 @@ body {
 
 .team {
   background-color: var(--team-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -199,6 +203,8 @@ body {
 
 .footer {
   background-color: var(--footer-hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-3 {
@@ -230,6 +236,11 @@ body {
 }
 
 /* portfolio */
+
+.port-nav {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .port-nav-btn {
   font-weight: 500;
