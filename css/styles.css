@@ -42,13 +42,18 @@ body {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* header */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   font-family: 'Raleway';
@@ -101,6 +106,8 @@ body {
 
 .hero {
   background-color: var(--footer-hero-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-item {
@@ -125,7 +132,10 @@ body {
   cursor: pointer;
 }
 
-/* преимущества */
+/* чем мы занимаемся */
+
+.benef {
+}
 
 .benef-title {
   font-weight: 700;
@@ -142,7 +152,8 @@ body {
   color: var(--font-text-color);
 }
 
-/* чем мы занимаемся */
+.wwdo {
+}
 
 .wwdo-title {
   font-weight: 700;
