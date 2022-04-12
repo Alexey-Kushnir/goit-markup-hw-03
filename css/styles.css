@@ -147,6 +147,10 @@ body {
   border: 1px solid black;
 }
 
+.benef-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .benef-title {
   font-weight: 700;
   font-size: 14px;
@@ -204,6 +208,9 @@ body {
 .team-item {
   width: 270px;
   height: 368px;
+}
+
+.team-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -281,7 +288,7 @@ body {
 }
 
 /* .port-nav-list, */
-.port-nav-btn {
+.port-nav-btn:not(:last-child) {
   margin-bottom: 8px;
 }
 
