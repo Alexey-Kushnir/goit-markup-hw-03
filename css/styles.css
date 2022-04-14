@@ -40,6 +40,9 @@ body {
   text-decoration: none;
 }
 
+.section {
+  padding: 94px 0px;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -53,7 +56,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 .logo,
@@ -172,7 +175,7 @@ body {
 
 .benef-list {
   display: flex;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .benef-list-item {
@@ -206,10 +209,10 @@ body {
   display: flex;
 } */
 
-.wwdo {
+/* .wwdo {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .wwdo-title {
   font-weight: 700;
@@ -233,8 +236,8 @@ body {
 
 .team {
   background-color: var(--team-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .team-title {
@@ -332,10 +335,10 @@ body {
 
 /* portfolio */
 
-.port-nav {
+/* .port-nav {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .port-nav-list {
   display: flex;
@@ -369,7 +372,7 @@ body {
 .port-exmpl-item {
   width: 370px;
   height: 404px;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 /* .port-exmpl-item + .port-exmpl-item {
@@ -381,7 +384,7 @@ body {
 } */
 
 .port-exmpl-item {
-  flex-basis: calc(100% / 3 -30px));
+  flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -401,5 +404,5 @@ body {
 
 .port-exmpl-cont {
   padding: 20px 24px;
-  /* border: 1px solid green; */
+  border: 1px solid #eeeeee;
 }
