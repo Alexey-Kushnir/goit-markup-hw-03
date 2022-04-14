@@ -53,6 +53,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ECECEC;
 }
 
 .logo,
@@ -386,7 +387,7 @@ body {
 }
 
 .port-exmpl-title {
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
