@@ -68,7 +68,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  /* display: flex; */
 }
 
 .logo {
@@ -175,7 +174,6 @@ body {
 
 .benef-list {
   display: flex;
-  /* margin-bottom: 94px; */
 }
 
 .benef-list-item {
@@ -205,15 +203,6 @@ body {
   color: var(--font-text-color);
 }
 
-/* .wwdo .container {
-  display: flex;
-} */
-
-/* .wwdo {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-
 .wwdo-title {
   font-weight: 700;
   font-size: 36px;
@@ -236,8 +225,6 @@ body {
 
 .team {
   background-color: var(--team-color);
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 
 .team-title {
@@ -293,10 +280,6 @@ body {
   padding-bottom: 60px;
 }
 
-/* .logo-footer {
-  margin-bottom: 20px;
-} */
-
 .logo-3 {
   color: var(--font-hero-color);
 }
@@ -325,20 +308,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* .footer-adress-list-item:first {
-  margin-top: 20px;
-} */
-
 .footer-adress-list-item {
   margin-bottom: 9px;
 }
 
 /* portfolio */
-
-/* .port-nav {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 
 .port-nav-list {
   display: flex;
@@ -372,16 +346,7 @@ body {
 .port-exmpl-item {
   width: 370px;
   height: 404px;
-  /* border: 1px solid #000000; */
 }
-
-/* .port-exmpl-item + .port-exmpl-item {
-  margin-left: 30px;
-} */
-
-/* .port-exmpl-item:not(:last-child) {
-  margin-right: 30px;
-} */
 
 .port-exmpl-item {
   flex-basis: calc(100% / 3 -30px);
