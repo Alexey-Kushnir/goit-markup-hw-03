@@ -134,6 +134,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: #2196f3;
+}
+
 /* эффективные решения */
 
 .hero {
@@ -168,6 +172,11 @@ body {
   min-width: 200px;
   border-radius: 4px;
   margin: 0 auto;
+  background-color: #2196f3;
+}
+
+.hero-btn:hover {
+  background-color: #188ce8;
 }
 
 /* чем мы занимаемся */
@@ -280,6 +289,15 @@ body {
   padding-bottom: 60px;
 }
 
+/* .logo-footer {
+  margin-bottom: 20px;
+} */
+
+/* .logo-1,
+.logo-3 {
+  margin-bottom: 20px;
+} */
+
 .logo-3 {
   color: var(--font-hero-color);
 }
@@ -336,6 +354,12 @@ body {
   border-radius: 4px;
 }
 
+.port-nav-btn:hover,
+.port-nav-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .port-exmpl-list {
   display: flex;
   flex-wrap: wrap;
@@ -355,6 +379,7 @@ body {
 }
 
 .port-exmpl-title {
+  color: var(--font-title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -362,6 +387,7 @@ body {
   margin-bottom: 4px;
 }
 .port-exmpl-text {
+  color: var(--font-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
