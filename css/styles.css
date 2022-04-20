@@ -88,15 +88,16 @@ body {
 
 .header-links {
   display: flex;
-  padding: 32px 0px;
 }
 
 .header-link {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-title-color);
+  padding: 32px 0;
 }
 
 .header-item:not(:last-child) {
@@ -335,7 +336,7 @@ body {
 .port-nav-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .port-nav-item:not(:last-child) {
@@ -352,6 +353,8 @@ body {
   height: 38px;
   min-width: 73px;
   border-radius: 4px;
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
 .port-nav-btn:hover,
